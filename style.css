@@ -1,0 +1,63 @@
+body {
+    font-family: "Roboto";
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.header {
+    padding: 21px 0 21px;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-weight: 700;
+    font-size: 24px;
+    color: black;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.link {
+    color: black;
+    font-weight: 300;
+    font-size: 18px;
+    display: block;
+}
+
+.main {
+    padding: 66px 0 78px;
+    background-color: black;
+}
+
+.title {
+    color: white;
+    text-align: center;
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.desc {
+    color: white;
+    font-weight: 300;
+    font-size: 30px;
+    margin: 10px 0 0 0;
+}
+
+.btn {
+    margin: 50px 0 0 0;
+    color: white;
+    width: 280px;
+    height: 60px;
+}
